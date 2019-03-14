@@ -22,7 +22,7 @@ existing dataset. Therefore, you'll need to define your own new dataset first.
 You'll need to open the :guilabel:`New Vector Layer` dialog that will allow you
 to define a new layer.
 
-* Navigate to and click on the menu entry :menuselection:`Layer --> New --> New
+* Navigate to and click on the menu entry :menuselection:`Layer --> Create Layer --> New
   Shapefile Layer`.
 
 You'll be presented with the following dialog:

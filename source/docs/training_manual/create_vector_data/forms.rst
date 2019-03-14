@@ -76,14 +76,13 @@ by hand. Fortunately, forms have different kinds of so-called *widgets* that
 allow you to edit data in various different ways.
 
 * Open the :guilabel:`roads` layer's :guilabel:`Layer Properties`.
-* Switch to the :guilabel:`Fields` tab. You'll see this:
+* Switch to the :guilabel:`Attribute Forms` tab. You'll see this:
 
 .. image:: img/fields_panel.png
    :align: center
 
-* Click on the :guilabel:`Line edit` button in the same row as
-  :guilabel:`man_made` and you'll be given a new dialog.
-* Select :guilabel:`Checkbox` in the list of options:
+* Within the fields, click on the :guilabel:`oneway` and you'll be given a new dialog.
+* Select :guilabel:`Checkbox` in the :guilabel:`Widget Type` dropdown.
 
 .. image:: img/checkbox_selected.png
    :align: center
@@ -93,7 +92,7 @@ allow you to edit data in various different ways.
 * Click on the :guilabel:`Identify` tool.
 * Click on the same main road you chose earlier.
 
-You'll now see that the :guilabel:`man_made` attribute has a checkbox next to it
+You'll now see that the :guilabel:`oneway` attribute has a checkbox next to it
 denoting :kbd:`True` (checked) or :kbd:`False` (unchecked).
 
 .. _backlink-create-vector-forms-1:

@@ -30,9 +30,9 @@ been activated.
   it is highlighted.
 * Click on the following toolbar button: |labeling|
 
-This gives you the :guilabel:`Layer labeling settings` dialog.
+This gives you the :guilabel:`Layer styling` dialog.
 
-* Check the box next to :guilabel:`Label this layer with...`.
+* From the dropdown labeled :guilabel:`No labels`, select the :guilabel:`Single labels`.
 
 You'll need to choose which field in the attributes will be used for the
 labels. In the previous lesson, you decided that the :kbd:`NAME` field was the
@@ -124,7 +124,7 @@ the point symbols and replace them completely with labels.
 In QGIS, you can do this by changing the position of the labels to be rendered
 directly over the points they refer to.
 
-* Open the :guilabel:`Layer labeling settings` dialog for the
+* Open the :guilabel:`Layer styling` dialog for the
   :guilabel:`places` layer.
 * Select the :guilabel:`Placement` option from the options list.
 * Click on the :guilabel:`Offset from point` button.
@@ -142,7 +142,7 @@ label to be centered on the point, so choose the center quadrant:
 .. image:: img/hide_point_marker.png
    :align: center
 
-* Click :guilabel:`OK` and you'll see this result:
+* Click :guilabel:`Apply` and you'll see this result:
 
 .. image:: img/hide_point_marker_results.png
    :align: center
@@ -207,14 +207,14 @@ The map will look somewhat like this, depending on scale:
 You'll see that some of the road names appear more than once and that's not
 always necessary. To prevent this from happening:
 
-* In the :guilabel:`Label labelling settings` dialog, choose the
+* In the :guilabel:`Layer styling` dialog, choose the
   :guilabel:`Rendering` option and select the
   :guilabel:`Merge connected lines to avoid duplicate labels`:
 
 .. image:: img/merge_lines_option.png
    :align: center
 
-* Click :guilabel:`OK`
+* Click :guilabel:`Apply`
 
 Another useful function is to prevent labels being drawn for features too short
 to be of notice.
@@ -228,7 +228,7 @@ the :guilabel:`horizontal` option is not a good idea in this case, so let's
 try the :guilabel:`curved` option instead.
 
 * Select the :guilabel:`Curved` option in the :guilabel:`Placement` panel of
-  the :guilabel:`Layer labeling settings` dialog.
+  the :guilabel:`Layer styling` dialog.
 
 Here's the result:
 

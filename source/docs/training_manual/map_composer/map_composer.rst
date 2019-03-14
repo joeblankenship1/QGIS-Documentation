@@ -25,7 +25,7 @@ reason, it has a tool called the :guilabel:`Layout Manager`.
 
 * Click on the :menuselection:`Project --> Layout Manager` menu entry to open
   this tool.  You'll see a blank :guilabel:`Layout manager` dialog appear.
-* Click the :guilabel:`Add` button and give the new layout the name of
+* Click the :guilabel:`Create...` button and give the new layout the name of
   |majorUrbanName|.
 * Click :guilabel:`OK`.
 * Click the :guilabel:`Show` button.
@@ -50,11 +50,15 @@ In this example, the composition was already the way we wanted it. Ensure that
 yours is as well.
 
 * In the :guilabel:`Print Layout` window, check that the values under
-  :menuselection:`Composition --> Paper and Quality` are set to the following:
+  :menuselection:`Layout --> Page Setup` are set to the following:
 
 - :guilabel:`Size`: :kbd:`A4 (210x297mm)`
 - :guilabel:`Orientation`: :kbd:`Landscape`
-- :guilabel:`Quality`: :kbd:`300dpi`
+- Click :guilabel:`OK`
+
+* In the :guilabel:`Layout` tab of the side panel, go to :guilabel:`Export Settings`
+
+- :guilabel:`Export resolution`: :kbd:`300dpi`
 
 Now you've got the page layout the way you wanted it, but this page is still
 blank. It clearly lacks a map. Let's fix that!

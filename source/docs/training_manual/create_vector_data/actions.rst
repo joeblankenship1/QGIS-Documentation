@@ -30,7 +30,7 @@ The :guilabel:`school_property` layer has no way to associate an image with a
 property yet. First we'll create a field for this purpose.
 
 * Open the :guilabel:`Layer Properties` dialog.
-* Click on the :guilabel:`Fields` tab.
+* Click on the :guilabel:`Source Fields` tab.
 * Toggle editing mode:
 
 .. image:: img/toggle_editing_mode.png
@@ -46,9 +46,9 @@ property yet. First we'll create a field for this purpose.
 .. image:: img/column_settings.png
    :align: center
 
-* After the field has been created, click on the :guilabel:`Line edit` button
-  next to the new field.
-* Set it up for a :guilabel:`File name`:
+* Click :guilabel:`OK`, close the properties, and then reopen the properties.
+* After the field has been created, click on the :guilabel:`Attributes Form` tab.
+* Select the new image field and then select :guilabel:`Attachment` from the dropdown in :guilabel:`Widget Type`.
 
 .. image:: img/select_file_name.png
    :align: center
@@ -123,7 +123,7 @@ is.
 
 * Click the :guilabel:`Insert field` button. QGIS will add the phrase :kbd:`[%
   "image" %]` in the :guilabel:`Action` field.
-* Click the :guilabel:`Add to action list` button.
+* Click the :guilabel:`OK` button in the Add New Action window.
 * Click :guilabel:`OK` on the :guilabel:`Layer Properties` dialog.
 
 Now we will test the new Action:
